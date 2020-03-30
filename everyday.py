@@ -21,7 +21,7 @@ def write_msg(message):
                 vk.method('messages.send', {'chat_id': i, 'message': message, 'random_id': random()})
             except Exception as e:
                 print(e)
-            time.sleep(1)
+            # time.sleep(1)
     except Exception as e:
         print(e)
         pass
